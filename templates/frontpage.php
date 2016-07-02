@@ -7,7 +7,7 @@
               </div>
               <div class="col-md-10">
                 <div class="topic-content pull-right">
-                  <h3><a href="topic.html">How did you learn CSS and HTML?</a></h3>
+                  <h3><a href="topic.php">How did you learn CSS and HTML?</a></h3>
                   <div class="topic-info">
                     <a href="category.html">Development</a> >> <a href="profile.html">AlB</a> >> Posted on: June 12, 2016 
                     <span class="badge pull-right">3</span>
@@ -23,7 +23,7 @@
               </div>
               <div class="col-md-10">
                 <div class="topic-content pull-right">
-                  <h3><a href="topic.html">How to create new page dynamically in php</a> </h3>
+                  <h3><a href="topic.php">How to create new page dynamically in php</a> </h3>
                   <div class="topic-info">
                     <a href="category.html">Development</a> >> <a href="profile.html">AlB</a> >> Posted on: June 12, 2016
                     <span class="badge pull-right">7</span>
@@ -39,7 +39,7 @@
               </div>
               <div class="col-md-10">
                 <div class="topic-content pull-right">
-                  <h3><a href="topic.html">Google Panda - Who's affected?</a></h3>
+                  <h3><a href="topic.php">Google Panda - Who's affected?</a></h3>
                   <div class="topic-info">
                     <a href="category.html">Search Engines</a> >> <a href="profile.html">AlB</a> >> Posted on: June 12, 2016 
                     <span class="badge pull-right">4</span>
@@ -55,7 +55,7 @@
               </div>
               <div class="col-md-10">
                 <div class="topic-content pull-right">
-                  <h3><a href="topic.html">Is Css3 is not working in IE8 and IE9?</a></h3>
+                  <h3><a href="topic.php">Is Css3 is not working in IE8 and IE9?</a></h3>
                   <div class="topic-info">
                     <a href="category.html">Design</a> >> <a href="profile.html">AlB</a> >> Posted on: June 12, 2016 
                     <span class="badge pull-right">2</span>
@@ -71,7 +71,7 @@
               </div>
               <div class="col-md-10">
                 <div class="topic-content pull-right">
-                  <h3><a href="topic.html">Best Web Application Frameworks</a></h3>
+                  <h3><a href="topic.php">Best Web Application Frameworks</a></h3>
                   <div class="topic-info">
                     <a href="category.html">Development</a> >> <a href="profile.html">AlB</a> >> Posted on: June 12, 2016 
                     <span class="badge pull-right">4</span>
