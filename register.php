@@ -6,6 +6,8 @@ $topic = new Topic;
 
 $user = new User;
 
+$validate = new Validator;
+
 if(isset($_POST['register'])){
 	$data = array();
 	$data['name'] = $_POST['name'];
@@ -16,7 +18,13 @@ if(isset($_POST['register'])){
 	$data['about'] = $_POST['about'];
 	$data['last_activity'] = date("Y-m-d H:i:s");
 
-	//Upload Avatar Image
+	//Required Fields
+	$field_array = array('name','email','username','password','password2');
+	
+	if($validate->isRequired($field_array)){
+		if($validate->isValidEmail($data['email'])){
+			if($validate->passwordsMatch($data['password'],$data['password2'])){
+					//Upload Avatar Image
 					if($user->uploadAvatar()){
 						$data['avatar'] = $_FILES["avatar"]["name"];
 					}else{
@@ -28,6 +36,15 @@ if(isset($_POST['register'])){
 					} else {
 						redirect('index.php', 'Something went wrong with registration', 'error');
 					}
+			} else {
+				redirect('register.php', 'Your passwords did not match', 'error');
+			}
+		} else {
+			redirect('register.php', 'Please use a valid email address', 'error');
+		}
+	} else {
+		redirect('register.php', 'Please fill in all required fields', 'error');
+	}
 }
 
 $template = new Template('templates/register.php');
